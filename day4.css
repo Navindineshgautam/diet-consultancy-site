@@ -1,0 +1,337 @@
+body {
+  /* background-image: url(https://images.squarespace-cdn.com/content/v1/5bab7391d74562f09fa14a74/1596100237568-ML4RZQ2KOQTY9IP89AKD/cooking+at+home+Lifestyle+dietitian%2C+sport+dietician%2C+nutritionists+Michelle+Theodosi%2C+Erika+Hung+and+Sarah+Lombardi+provide+private%2C+personalised+nutrition+consultation%2C+workshop%2C+presentation.+Based+in+Sydney%3A+Sylvania%2C+Sutherland%2C+Balmain%2C+Birkenhead%2C+Drummoyne%2C+Gordon%2C+Glebe%2C+Carlingford%2C+Epping%2C+Chatswood%2C+Randwick%2C+Lane+Cove+and+Rozelle+%28Inner+West%2C+North+Sydney%2C+Eastern+suburbs%29.+Assist+in+weight+loss%2C+diabetes%2C+diabetes%2C+PCOS%2C+woman+health%2C+high+cholesterol%2C+eating+disorder%2C+emotional%2C+binge+eating%2C+gut+health+using+psychology+of+eating%2C+mindset+and+motivation+to+make+sustainable+behaviour+and+diet+change+to+improve+health+and+wellness.?format=1500w); */
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-synthesis: none;
+  font-kerning: none;
+  font-variant-ligatures: none;
+  font-feature-settings: "kern" 0, "calt" 0, "liga" 0, "clig" 0, "dlig" 0,
+    "hlig" 0;
+  font-family: DIN Round OT, sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+div {
+    display: block;
+}
+
+.more {
+  padding-top: 300px;
+}
+#shape {
+  position: relative;
+  height: 52px;
+  width: 52px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  bottom: 600;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-items {
+  color: hsla(210, 26%, 7%, 0.7);
+  list-style-type: none;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  max-width: 148px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-rendering: geometricprecision;
+  white-space: normal;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  text-align: unset;
+}
+
+a {
+  padding: 10px 16px;
+  text-decoration-line: none;
+  overflow: hidden;
+  color: hsla(210, 26%, 7%, 0.7);
+  white-space: nowrap;
+  font-weight: 700;
+  display: inline-block;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-overflow: ellipsis;
+  margin-right: auto;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.logo-text{
+    display: flex;
+    padding: 50px; 
+}
+
+.home-h1{
+    color:#ffffff;
+    font-family: sans-serif;
+    text-align:center;
+    font-size: 40px;
+}
+
+.home-text{
+    padding-bottom: 100px;
+}
+
+.see-more-text{
+    color:#ffffff;
+    font-family: sans-serif;
+    padding: 10px 40px;
+    border: 3px solid #ffffff;
+    font-size: 20px;
+}
+
+.see-more{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.green{
+    color: rgb(99, 221, 99);
+    font-size: 50px;
+    padding: 60px 80px;
+}
+
+.about-text-1{
+    color: #000;
+    padding: 100px 130px 0px 130px;
+}
+
+.about-text-2{
+    color: #000;
+    padding: 0px 130px 0px 130px;
+}
+
+.home{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5bab7391d74562f09fa14a74/1596100237568-ML4RZQ2KOQTY9IP89AKD/cooking+at+home+Lifestyle+dietitian%2C+sport+dietician%2C+nutritionists+Michelle+Theodosi%2C+Erika+Hung+and+Sarah+Lombardi+provide+private%2C+personalised+nutrition+consultation%2C+workshop%2C+presentation.+Based+in+Sydney%3A+Sylvania%2C+Sutherland%2C+Balmain%2C+Birkenhead%2C+Drummoyne%2C+Gordon%2C+Glebe%2C+Carlingford%2C+Epping%2C+Chatswood%2C+Randwick%2C+Lane+Cove+and+Rozelle+%28Inner+West%2C+North+Sydney%2C+Eastern+suburbs%29.+Assist+in+weight+loss%2C+diabetes%2C+diabetes%2C+PCOS%2C+woman+health%2C+high+cholesterol%2C+eating+disorder%2C+emotional%2C+binge+eating%2C+gut+health+using+psychology+of+eating%2C+mindset+and+motivation+to+make+sustainable+behaviour+and+diet+change+to+improve+health+and+wellness.?format=1500w);
+    background-size: 100%;
+}
+
+.about{
+    background-color: rgb(242, 242, 234);
+    display: flex;
+}
+
+.image{
+    width: 750px;
+    height: 650px;
+    padding: 0 0px 0 80px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.adout-text-box{
+    display: flex;
+    flex-direction: column;
+}
+.service{
+    background-color: rgb(242, 242, 234);
+}
+
+.service-text{
+    display: flex;
+}
+
+.image-block-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    gap: 50px;
+}
+
+.image-text-1{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 1800px 1200px;
+    background-image: url('https://codefirst-1.my.canva.site/cream-and-green-simple-light-health-wellness-service-website/images/77ecd2a9fe9f39382e0ab7e2ab5c3399.jpg');
+}
+
+.image-text-2{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 1800px 1200px;
+    background-image: url('https://codefirst-1.my.canva.site/cream-and-green-simple-light-health-wellness-service-website/images/07a22f42c48c94283ea3f999bbb905c7.jpg');
+}
+
+.image-text-3{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 1800px 1200px;
+    background-image: url('https://codefirst-1.my.canva.site/cream-and-green-simple-light-health-wellness-service-website/images/a10bf9e6a654cefdbcc366658f89dd0c.jpg');
+}
+
+.test-1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.service-text-h1{
+    font-size: 40px;
+    
+}
+
+.service-text{
+    padding: 40px;
+}
+
+.services-text{
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.image-block-2{
+    background-image: url('https://codefirst-1.my.canva.site/cream-and-green-simple-light-health-wellness-service-website/images/9fec861e35c5912f2966fee1adc8d40d.jpg');
+    background-size: 100%;
+    width: 1519px;
+    height: 900px;
+}
+
+.text{
+    color: #ffffff;
+    text-align: center;
+}
+
+.text-1{
+    font-size: 70px;
+    padding-top: 190px;
+}
+
+.text-2{
+    font-size: 30px;
+    padding-bottom: 90px;
+}
+
+.image-text-block{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.feedback-image{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.img-t-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.word{
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.name{
+    font-size: 30px;
+}
+
+.p-name{
+    color: rgb(89, 218, 89);
+    font-size: 20px;
+}
+
+.d-name{
+    font-size: 18px;
+}
+
+.lastimg{
+    z-index: 1;
+    position: relative;
+    display:block;
+    object-fit:cover;
+    width: 670px;
+    height:680px;
+    top:0px;
+    left:0px
+}
+
+.line{
+   
+    color:#a1d683;
+    padding-left: 250px;
+    line-height: 1.5rem;
+}
+
+.contact-text{
+   
+    color:#080808;
+    font-family:sans-serif;
+    font-size: 20px;
+    padding-left: 250px;
+}
+.contact{
+    display: flex;
+    margin-left: 50px;
+}
+.contact-deco{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-size:30px;
+    padding-top: 250px;
+    letter-spacing: 0.27rem;
+    line-height: 1.5rem;
+}
+.address{
+   display: flex;
+   padding-left: 250px;
+   color:#a1d683;
+   flex-wrap: wrap;
+    align-content: stretch;
+    letter-spacing: -0;
+    font-size: medium;
+    padding-top: 35px;
+    line-height: 3rem;
+}
+#hello{
+    color: #080808;
+}
+#add{
+    color: #080808;
+}
+#phn{
+    color: #080808;
+}
+
+

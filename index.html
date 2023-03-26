@@ -1,123 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>facebook login</title>
-    <link rel="stylesheet" href="C:\Users\navin\Documents\web development\style.css" type="text/css">
-</head>
-<style>body{
-    padding: 0;
-    margin:0;
-    background:#f0f2f5;
-    font-family:Arial, sans-serif;
-}
-.box{
-    display:felx;
-    justify-content:center;
-    align-items:center;
-    width:100%;
-    height:100vh;
-}
-.title-box{
-    width:500px;
-}
-.title-box img{
-    width:235px;
-    margin-bottom:-10px;
-}
-.title-box p{
-    color:#000;
-    font-size:26px;
-    font-weight:normal;
-    line-height: 32px;
-}
-.form-box{
-    width:350px;
-    padding:15px;
-    text-align:center;
-    border-radius:5px;
-    background:#fff;
-    margin-left:60px;
-    box-shadow:0px 2px 10px 1px rgba(71, 71, 71, 0.52);
-}
-.form-box input{
-    width:100%;
-    margin-bottom:15px;
-    padding:15px;
-    font-size:18px;
-    box-sizing:border-box;
-    border:1px solid #eeebeb;
-    border-radius:5px;
-    outline:none;
-}
-.form-box input:focus{
-    box-shadow:0px 0px 1px 1px rgb(22, 111, 229);
-}
-.form-box button{
-    width:100%;
-    margin-bottom:15px;
-    color:#fff;
-    font-size:20px;
-    font-weight:600;
-    border-radius:5px;
-    border:none;
-    padding:13px 0;
-    cursor:pointer;
-    background:#166fe5;
-}
-.form-box button:hover{
-    background:#1877f2;
-}
-.form-box a{
-    color:#166fe5;
-    font-size:14px;
-    text-decoration:none;
-    margin-top:5px;
-    margin-bottom:20px;
-    display:block;
-}
-.form-box a:hover{
-    text-decoration:underline;
-}
-.form-box hr{
-    border:1px solid #dadde1;
-    margin-bottom:15px;
-}
-.form-box .create-btn a{
-    color:#fff;
-    font-size:16px;
-    text-decoration:none;
-    padding:15px 20px;
-    border-radius:5px;
-    background:#36a420;
-    font-weight:600;
-    display:inline-block;
-    margin-bottom:5px;
-}
-.form-box .create-btn a:hover{
-    background:#42b72a;
-}
-</style>
-<body>
-  <div class="box">
-      <div class="title-box">
-          <img src="https://logos-world.net/wp-content/uploads/2020/04/Facebook-Logo.png" alt="Facebook">
-          <p>Facebook helps you connect and share with the people in your life</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="day4.css" />
+  </head>
+
+  <body>
+    <nav
+      style="
+        background-color: #ffffff;
+        z-index: 1;
+        top: 0px;
+        display: flex;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        justify-content: flex-end;
+        position: sticky;
+        align-items: center;
+        text-overflow: ellipsis;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+        height: 50px;
+      "
+    >
+      <ul class="nav-bar">
+        <li class="nav-items"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-items"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-items">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-link" href="#feedback">Feedback</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="home">
+      <div class="logo-text">
+        <div>
+          <img
+            src="https://codefirst-1.my.canva.site/cream-and-green-simple-light-health-wellness-service-website/images/601dd55c33401a1949f84920d28c5d3d.svg"
+            id="shape"
+            alt="Logo Icon Design"
+          />
+        </div>
+        <div>
+          <h2 style="color: #ffffff; font-family: sans-serif">
+            Soo &amp;<br />
+            Associates
+          </h2>
+        </div>
       </div>
-      <div class="form-box">
-          <form action="#">
-              <input type="text" placeholder="Email adderess or phone number">
-              <input type="password" placeholder="password">
-              <button type="submit">Login</button>
-              <a href="#">Forgotten password</a>
-          </form>
-          <hr>
-          <div class="creat-btn">
-              <a href="#">create new account</a>
+      <div class="home-text">
+        <h1 class="home-h1">Wolloughdale's</h1>
+        <h1 class="home-h1">Most Trusted</h1>
+        <h1 class="home-h1">Dietary Consultancy</h1>
+      </div>
+      <div class="see-more">
+        <span class="see-more-text">SEE MORE</span>
+      </div>
+    </section>
+    <section id="about">
+      <div class="about">
+        <div class="adout-text-box">
+          <div class="green">01</div>
+          <div class="about-text-1">
+            <h1>Meet<br />Jin Ae Soo</h1>
           </div>
+          <div class="about-text-2">
+            <p
+              style="
+                text-transform: none;
+                color: #000000;
+                letter-spacing: 0em;
+                font-family: YAEnl838gX0-0;
+                line-height: 1.61em;
+              "
+            >
+              <span style="color: #000000"
+                >Our founder, Jin Ae Soo, is a Registered<br />
+                Dietitian who is deeply passionate about<br />
+                educating people on how to maintain <br />good health through
+                nutritious food.</span
+              ><br />
+            </p>
+          </div>
+        </div>
+        <div>
+          <img
+            src="https://codefirst-1.my.canva.site/cream-and-green-simple-light-health-wellness-service-website/images/4df66423f8cee2d548b1c0d9d3f3c5ea.jpg"
+            alt=""
+            class="image"
+          />
+        </div>
       </div>
-  </div>  
-</body>
+    </section>
+    <section id="services">
+      <div class="service">
+        <div class="service-text">
+          <div class="green">02</div>
+          <div>
+            <p class="service-text-h1">
+              Dietitian<br />
+              Services
+            </p>
+          </div>
+        </div>
+        <div class="image-block-1">
+          <div class="image-text-1">
+            <p class="test-1">Diet Counseling</p>
+          </div>
+          <div class="image-text-2">
+            <p class="test-1">Diet planning</p>
+          </div>
+          <div class="image-text-3">
+            <p class="test-1">Diet Education</p>
+          </div>
+        </div>
+        <div class="services-text">
+          <p>Need more information about your nutritional needs?</p>
+          <p>We offer the above services.</p>
+        </div>
+        <div class="image-block-2">
+          <p class="text text-1">
+            No two people are exactly alike.<br />
+            That's why our programs are<br />
+            individualized, so safety and<br />
+            efficacy is assured.
+          </p>
+          <p class="text text-2">- Jin Ae Soo, RD</p>
+        </div>
+      </div>
+    </section>
+    <section id="feedback">
+      <div class="feedback">
+        <div class="service-text">
+          <div class="green">03</div>
+          <div>
+            <p class="service-text-h1">
+              What<br />
+              Clients Say
+            </p>
+          </div>
+        </div>
+        <div class="image-text-block">
+          <div class="img-t-div">
+            <div>
+            <img
+              src="https://codefirst-1.my.canva.site/cream-and-green-simple-light-health-wellness-service-website/images/cd8ae6cf60454cf16b9429d08dd581c7.jpg"
+              alt=""
+              class="feedback-image"
+            />
+          </div>
+            <div class="word">
+              <p class="name">Eliza Hunter</p>
+              <p class="p-name">Lawyer</p>
+              <p class="d-name">
+                Testimonials are short quotes from people who love your brand.<br/>
+                It's a great way to convince customers to try your services.
+              </p>
+            </div>
+          </div>
+          <div class="img-t-div">
+            <div>
+            <img
+              src="https://codefirst-1.my.canva.site/cream-and-green-simple-light-health-wellness-service-website/images/653b216aeb2f91365daf37e48c8d4bd0.jpg"
+              alt=""
+              class="feedback-image"
+            />
+          </div>
+            <div class="word">
+              <p class="name">Carlo Souza</p>
+              <p class="p-name">Personal Trainer</p>
+              <p class="d-name">
+                Testimonials are short quotes from people who love your brand.<br/>
+                It's a great way to convince customers to try your services.
+              </p>
+            </div>
+          </div>
+          <div class="img-t-div">
+            <div>
+            <img
+              src="https://codefirst-1.my.canva.site/cream-and-green-simple-light-health-wellness-service-website/images/f03c510a28e756595d43079a8a642489.jpg"
+              alt=""
+              class="feedback-image"
+            />
+          </div>
+            <div class="word">
+              <p class="name">Mariah Turner</p>
+              <p class="p-name">Professional Athlete</p>
+              <p class="d-name">
+                Testimonials are short quotes from people who love your brand.<br/>
+                It's a great way to convince customers to try your services.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact">
+        <div><img src="https://codefirst-1.my.canva.site/cream-and-green-simple-light-health-wellness-service-website/images/318b4b0172a93efdf4c0c1624e26f536.jpg" class="lastimg" alt="" srcset=""></div>
+        <div class="contact-deco">
+          <div><span class="line">04</span></div><br>
+          <div><span class="contact-text" class="num1">Contact</span></div>
+          <div><span class="contact-text" class="num1">Details</span></div>
+    
+    
+          <div class="address">
+            <div>Email Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                id="hello">hello@reallygreatsite.com</span></div>
+            <div>Phone Number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
+                id="phn">(123)&nbsp;&nbsp;456-7890</span></div>
+            <div>Mailing Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="add">Anywhere St.Any City,ST
+                12345</spAN></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer></footer>
+  </body>
 </html>
